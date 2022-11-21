@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <title>Wael</title>
+        <style>
+            a:link {
+              color: black;
+              background-color: transparent;
+              text-decoration: none;
+            }
+            
+            a:visited {
+              color: black;
+              background-color: transparent;
+              text-decoration: none;
+            }
+            
+            a:hover {
+              color: black;
+              background-color: transparent;
+              text-decoration: underline;
+            }
+            
+            a:active {
+              color: black;
+              background-color: transparent;
+              text-decoration: underline;
+            }
+            tr:nth-child(even) {
+              background-color: #D6EEEE;
+            }
+            td:nth-child(even), th:nth-child(even) {
+              background-color: #D6EEEE;
+            }
+
+            .city {
+              background-color: tomato;
+              color: white;
+              padding: 10px;
+            }
+
+            function myFunction() {
+              var x = document.getElementsByClassName("city");
+              for (var i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+              }
+            }
+
+            #myHeader {
+              background-color: lightblue;
+              color: black;
+              padding: 40px;
+              text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+
+    <h1>My First Heading</h1>
+
+    <p>My first paragraph.</p>
+    <a href="https://www.w3schools.com">This is a link</a>
+    <br/>
+    <img src="C:\Users\TEC-GATE\Desktop\FB_IMG_1523060741373.jpg" alt="W3Schools.com" width=120 height=120>
+    <p style="color:red;">red</p>
+    <p title="I'm a tooltip">This is a paragraph.</p>
+    <a href="https://facebook.com">Facebook</a>
+    <a href="https://www.w3schools.com/html/">Visit our HTML tutorial</a>
+
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+    <h1 style="font-size:60px;">Heading 1</h1>
+    <p>
+        This paragraph
+        contains a lot of lines
+        in the source code,
+        but the browser
+        ignores it.
+        </p>
+        <hr>
+        <p>
+        This paragraph
+        contains         a lot of spaces
+        in the source         code,
+        but the        browser
+        ignores it.
+        </p>
+        <p style="background-color:tomato;">This is a paragraph.</p>
+
+        <p>My favorite color is <del>blue</del> red.</p>
+        <p>My favorite color is <del>blue</del> <ins>red</ins>.</p>
+        <p>This is <sub>subscripted</sub> text.</p>
+        <p>This is <sup>superscripted</sup> text.</p>
+        <blockquote cite="http://www.worldwildlife.org/who/index.html">
+            For 50 years, WWF has been protecting the future of nature.
+            The world's leading conservation organization,
+            WWF works in 100 countries and is supported by
+            1.2 million members in the United States and
+            close to 5 million globally.
+        </blockquote>
+        <p>WWF's goal is to: <q>Build a future where people live in harmony with nature.</q></p>
+
+        <p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+        <p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p>
+        <bdo dir="ltr">وائل</bdo>
+        <p>وائل</p>
+        <h1 style="background-color:hsl(9, 100%, 64%);">...</h1>
+        <a href="https://facebook.com">dddd</a>
+        <img src="/images/html5.gif" alt="HTML5 Icon" style="width:128px;height:128px;">
+
+        <img src="workplace.jpg" alt="Workplace" usemap="#workmap">
+
+        <map name="workmap">
+            <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+            <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+            <area shape="circle" coords="337,300,44" alt="Coffee" href="coffee.htm">
+        </map>
+        <caption>www</caption>
+        <table>
+            <tr>
+              <td>Emil</td>
+              <td>Tobias</td>
+              <td>Linus</td>
+            </tr>
+            <tr>
+              <td>16</td>
+              <td>14</td>
+              <td>10</td>
+            </tr>
+          </table>
+
+      <table>
+        <tr>
+              <th colspan="2">Name</th>
+              <th>Age</th>
+        </tr>
+            <tr>
+              <td>Jill</td>
+              <td>Smith</td>
+              <td>43</td>
+            </tr>
+            <tr>
+              <td>Eve</td>
+              <td>Jackson</td>
+              <td>57</td>
+            </tr>
+      </table>
+
+      <table>
+        <tr>
+          <th>Name</th>
+          <td>Jill</td>
+        </tr>
+        <tr>
+          <th rowspan="2">Phone</th>
+          <td>555-1234</td>
+        </tr>
+        <tr>
+          <td>555-8745</td>
+      </tr>
+      </table>
+
+      <table>
+        <tr>
+          <th colspan="2">Name</th>
+          <th>Age</th>
+        </tr>
+        <tr>
+          <td>Jill</td>
+          <td>Smith</td>
+          <td>43</td>
+        </tr>
+        <tr>
+          <td>Eve</td>
+          <td>Jackson</td>
+          <td>57</td>
+        </tr>
+      </table>
+
+      <button onclick="document.location='default.asp'">HTML Tutorial</button>
+
+      <ul>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+      </ul>
+
+      <ol>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+      </ol>
+
+      <dl>
+        <dt>Coffee</dt>
+        <dd>- black hot drink</dd>
+        <dt>Milk</dt>
+        <dd>- white cold drink</dd>
+      </dl>
+
+      <dl>
+        <dt>Coffee</dt>
+        <dd>- black hot drink</dd>
+        <dt>Milk</dt>
+        <dd>- white cold drink</dd>
+      </dl>
+
+      <ul style="list-style-type:square;">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+      </ul>
+
+      <ul style="list-style-type:none;">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+      </ul>
+
+      <ol type="1">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+      </ol>
+
+      <ol type="A">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+      </ol>
+
+      <ol type="a">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+      </ol>
+
+      <ol start="50">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+      </ol>
+
+      <h2 class="city">London</h2>
+
+      <h1 id="myHeader">My Header</h1>
+
+    </body>
+</html>
